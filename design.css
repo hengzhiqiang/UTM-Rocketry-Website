@@ -109,7 +109,7 @@ header {
 }
 
 #current{
-    color: hsl(0, 3%, 70%);
+    color: hsl(0, 3%, 80%);
     text-decoration: none;
     font-size: 16px;
     font-weight: 500;
@@ -125,7 +125,7 @@ header {
     transform: translateX(-50%); /* Center the element */
     width: 0;
     height: 2px;
-    background: hsl(0, 3%, 70%);
+    background: hsl(0, 3%, 80%);
     transition: width 0.4s ease;
 }
 
