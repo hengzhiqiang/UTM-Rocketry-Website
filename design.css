@@ -15,6 +15,7 @@ body {
     padding-top: 80px; /* For fixed header */
     min-height: 100vh; /* Ensure body is at least full viewport height */
     display: flow-root;
+    zoom: 0.9;
     }
     
 header {
