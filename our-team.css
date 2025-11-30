@@ -74,3 +74,16 @@ p {
     font-size: 3.5em;
     opacity: 0.8;
 }
+
+.leaders-row {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px 0;
+    flex-wrap: wrap;
+}
+
+.leader-section {
+    text-align: center;
+    width: 600px;
+}
