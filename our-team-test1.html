@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>UTM Rocketry</title>
+        <meta charset = "UTF-8">
+        <meta name = "description" content = "UTM Rocketry">
+        <meta name = "keywords" content = "UTM, Rocketry, rocket">
+        <meta name = "author" content = "UTM Rocketry Team">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <meta http-equiv = "refresh" content = "30000"> <!--if dont want refresh can just delete-->
+        <link rel="stylesheet" href="design.css">
+        <link rel="stylesheet" href="our-team-test1.css">
+        <link rel="icon" href="img/UTM rocketry logo.png" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    
+    <body>
+        <header> 
+        <nav class="navbar">
+        <div class="container-fluid">
+            <a href="index.html" class="brand">
+            <img src="img/UTM rocketry logo.png" alt="UTM Rocketry Logo" class="logo">
+            <span style="font-family: 'Fira Code', monospace;">UTM ROCKETRY</span>
+        </a>
+            <div>
+            <ul>
+                <li>
+                <a href="index.html" id="current">About</a>
+                </li>
+
+                <li class="dropdown">
+                <a href="our-team.html">Our Team</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="our-team-highmanagement.html">High Managements</a>
+                    <a class="dropdown-item" href="our-team-software.html">Software</a>
+                    <a class="dropdown-item" href="our-team-avionic.html">Avionic</a>
+                    <a class="dropdown-item" href="our-team-recovery.html">Recovery</a>
+                    <a class="dropdown-item" href="our-team-payload.html">Payload</a>
+                    <a class="dropdown-item" href="our-team-structural.html">Structural</a>
+                    <a class="dropdown-item" href="our-team-aerodynamics.html">Aerodynamics</a>
+                    <a class="dropdown-item" href="our-team-propulsion.html">Propulsion</a>
+                    <a class="dropdown-item" href="our-team-sponsorship.html">Sponsorship</a>
+                    <a class="dropdown-item" href="our-team-secretary.html">Secretary</a>
+                    <a class="dropdown-item" href="our-team-safety.html">Safety</a>
+                    <a class="dropdown-item" href="our-team-multimedia.html">Multimedia</a>
+                </div>
+                </li>
+                
+                <li>
+                <a href="current-project.html">Current Project</a>
+                </li>
+
+                <li>
+                <a href="past-project.html">Past Project</a>
+                </li>
+
+                <li class="dropdown">
+                <a href="sponsors.html">Sponsors</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="">Our Sponsors</a>
+                    <a class="dropdown-item" href="">Become a Sponsor</a>
+                    <a class="dropdown-item" href="">Become a Donor</a>
+                </div>
+                </li>
+
+                <li>
+                <a href="contact-us.html">Contact Us</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+        </nav>
+        </header>
+        <div class="team-section">
+            <div class="team-hero">
+                <h1 class="team-header">Introducing Our Team</h1>
+                <img src="img/ourteam5.png" alt="UTM Rocketry Team" style="max-width: 800px;">
+                <p class="team-description">
+                    100 students from UTM from different departments will work together to complete our project "Aetherion" and launch our rocket in IREC 2026 in USA. We are lucky to have so many talented members to work with and work along the path to success. Explore more about different department here !
+                </p>
+            </div>
+
+            <h2 class="roster-title">Aetherion 2026 Roster</h2>
+
+            <div class="roster-container">
+                <!-- High Management Section -->
+                <div class="accordion-item">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <span class="section-header">&gt; High Management</span>
+                        <span class="accordion-icon">&gt;</span>
+                    </div>
+                    <div class="accordion-content">
+                        <!-- Single item, no need for sub-items -->
+                    </div>
+                </div>
+
+                <!-- Technical Departments Section -->
+                <div class="accordion-item">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <span class="section-header">&gt; Technical Departments</span>
+                        <span class="accordion-icon">&gt;</span>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="department-item" onclick="window.location.href='our-team-avionic.html'">Avionics</div>
+                        <div class="department-item" onclick="window.location.href='our-team-aerodynamics.html'">Aerodynamics</div>
+                        <div class="department-item" onclick="window.location.href='our-team-structural.html'">Structural</div>
+                        <div class="department-item" onclick="window.location.href='our-team-payload.html'">Payload</div>
+                        <div class="department-item" onclick="window.location.href='our-team-propulsion.html'">Propulsion</div>
+                        <div class="department-item" onclick="window.location.href='our-team-recovery.html'">Recovery</div>
+                        <div class="department-item" onclick="window.location.href='our-team-software.html'">Airbrake</div>
+                        <div class="department-item" onclick="window.location.href='our-team-software.html'">Software & Website</div>
+                    </div>
+                </div>
+
+                <!-- Non-Technical Departments Section -->
+                <div class="accordion-item">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <span class="section-header">&gt; Non-Technical Departments</span>
+                        <span class="accordion-icon">&gt;</span>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="department-item" onclick="window.location.href='our-team-sponsorship.html'">Sponsorship</div>
+                        <div class="department-item" onclick="window.location.href='our-team-secretary.html'">Secretary</div>
+                        <div class="department-item" onclick="window.location.href='our-team-safety.html'">Safety</div>
+                        <div class="department-item" onclick="window.location.href='our-team-multimedia.html'">Multimedia</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-container">
+        <div class="footer">
+            <div class="footer-heading footer-1">
+                <h4>Quick Links</h4><br>
+                <a href="index.html" style="font-size: 13px;">About</a>
+                <a href="our-team.html" style="font-size: 13px;">Our Team</a>
+                <a href="past-project.html" style="font-size: 13px;">Past Projects</a>
+                <a href="current-project.html" style="font-size: 13px;">Current Projects</a>
+            </div>
+            <div class="footer-heading footer-2">
+                <h4>Sponsors</h4><br>
+                <a href="sponsors.html" style="font-size: 13px;">Our Sponsors</a>
+                <a href="sponsors.html" style="font-size: 13px;">Become a Sponsor</a>
+                <a href="sponsors.html" style="font-size: 13px;">Become a Donor</a>
+            </div>
+            <div class="footer-heading footer-3">
+                <h4 style="font-size: 16px;">Follow Us</h4><br>
+                <a href="https://www.instagram.com/utmrocketry/" target="_blank" style="font-size: 13px;" > <i class="fa-brands fa-instagram"></i> Instagram</a> 
+                <a href="https://www.facebook.com/profile.php?id=61582661865031" target="_blank" style="font-size: 13px;"> <i class="fa-brands fa-facebook"></i> Facebook</a> 
+                <a href="mailto:utmrocketry@gmail.com" target="_blank" style="font-size: 13px;"> <i class="fa-solid fa-envelope"></i> Gmail</a>
+                <a href="https://www.linkedin.com/company/utm-rocketry-team/" target="_blank" style="font-size: 13px;"> <i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+            </div>
+        </div>
+    </div>
+    <script>
+        function toggleAccordion(header) {
+            const item = header.parentElement;
+            const isActive = item.classList.contains('active');
+            
+            // Close all accordion items
+            document.querySelectorAll('.accordion-item').forEach(accordionItem => {
+                accordionItem.classList.remove('active');
+            });
+            
+            // Open clicked item if it wasn't active
+            if (!isActive) {
+                item.classList.add('active');
+            }
+        }
+    </script>
+    </body>
+</html>
