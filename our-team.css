@@ -194,7 +194,8 @@
 .accordion-icon {
     transition: transform 0.3s ease;
     color: #888;
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .accordion-item.active .accordion-icon {
